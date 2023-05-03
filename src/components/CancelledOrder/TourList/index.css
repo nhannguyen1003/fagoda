@@ -1,0 +1,116 @@
+.tour-list {
+  background-color: white;
+  /* height: 100vh; */
+  /* min-width: 850px; */
+  /* margin-left: 150px; */
+  /* position: fixed;
+  z-index: 1; */
+}
+
+.status-bar {
+  border-bottom: 1px solid rgb(208, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  height: 60px;
+}
+
+.status-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  /* padding-top: 20px; */
+  font-weight: bolder;
+}
+
+.waiting-content {
+  padding: 0 70px;
+  height: 100%;
+}
+
+.subtitle {
+  border-bottom: 2px solid #d9d9d9;
+  color: #7c7c7c;
+  font-weight: bolder;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  /* font-size: 13px; */
+}
+
+.subtitle ul {
+  display: flex;
+  list-style-type: none;
+  /* justify-content: space-around; */
+  padding-left: 0;
+}
+
+.each-tour {
+  display: flex;
+  font-size: 14px;
+  /* justify-content: space-around; */
+}
+
+.tour-detail {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #d9d9d9;
+  font-weight: bolder;
+}
+
+.tour-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.location-detail {
+  border-radius: 5px;
+  border: 2px solid;
+  padding: 1px 3px;
+  font-size: 10px;
+}
+
+.company-star {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.company-star img {
+  width: 15px;
+  height: 15px;
+}
+.company-detail {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  align-items: flex-start;
+}
+
+.company-info {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.tab-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 940px;
+  height: calc(100vh - 110px);
+}
+
+.detail {
+  height: 90%;
+}

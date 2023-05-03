@@ -1,0 +1,75 @@
+.history-container {
+  background-color: white;
+  width: 65%;
+}
+
+.bold-text {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.history-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid rgb(208, 204, 204); */
+  padding: 0 3%;
+  justify-content: space-between;
+  /*gap: 15px; */
+}
+
+.history-content {
+  height: calc(100vh - 110px);
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.history-wrapper {
+  display: flex;
+  gap: 1.5%;
+}
+
+.flex-item {
+  flex: 1;
+  background-color: #f6f5f5;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 15px 10px;
+}
+
+.tours {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.box-title {
+  margin-bottom: 15px;
+}
+
+.box-title span:first-child {
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: larger;
+}
+
+.box-title span:nth-child(2) {
+  color: #c0baba;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.tour-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+}
+
+.a-tour {
+  background-color: white;
+  font-size: 0.9em;
+  padding: 5px 0;
+  box-shadow: 0px 4px 5px 0px #00000040;
+  border-radius: 10px;
+}

@@ -1,0 +1,240 @@
+.centerTab {
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.filter {
+    position: fixed;
+    left: calc(50vw - 300px);
+    top: 50px;
+    z-index: 50;
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 4px 8px rgb(0 0 0 / 10%);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.imageFilter {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.titleFilter {
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.allFilter {
+    display: flex;
+}
+
+.keyword {
+    margin-left: 10px;
+    background-color: #F0F2F5;
+    border-radius: 25px;
+    font-size: 13px;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.imageKeyword {
+    width: 20px;
+    height: 20px;
+}
+
+.postNew {
+    margin-top: 20px;
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 4px 8px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentPostNew {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+.newPost {
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentNewPost {
+    padding: 20px;
+    border-top: 1px solid #F0F2F5;
+}
+
+.userNewPost {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menuNewPost {
+    border: 2px solid rgb(0 0 0 / 20%);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menuPostNew {
+    display: flex;
+    height: 40px;
+    border-top: 1px solid #F0F2F5;
+}
+
+.newsfeed {
+    position: relative;
+    top: 50px;
+    left: 7px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.postNF {
+    background-color: white;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 4px 8px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.imagePostNF {
+    width: 600px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.contentNF {
+    margin: 0 25px;
+}
+
+.titlePostNF {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.contentPostNF {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.hashtagPostNF {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tourPostNF {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.infoTourPostNF {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px
+}
+
+.companyPostNF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoCompanyPostNF {
+    display: flex;
+    gap: 10px
+}
+
+.timePostNF {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.starPostNF {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reactPostNF {
+    margin: 5px 0 5px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voteFramePostNF {
+    display: flex;
+}
+
+.votePostNF {
+    height: 15px;
+}
+
+.buttonMenuPostNF {
+    margin: 0 -25px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #F0F2F5;
+    border-bottom: 1px solid #F0F2F5;
+}
+
+.commentPostNF {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.contentCommentPostNF {
+    display: flex;
+    align-items: center;
+}
+
+.contentCommentPostNF {
+    font-size: 12px;
+}
+
+.reactCommentPostNF {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.childReactCommentPostNF {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.moreCommentPostNF {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+}

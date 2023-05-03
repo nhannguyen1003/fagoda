@@ -1,0 +1,71 @@
+.info-container {
+  width: 55%;
+  background-color: white;
+}
+
+.info-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(208, 204, 204);
+  padding: 0 5%;
+}
+
+.header-action {
+  display: flex;
+  gap: 15px;
+}
+
+.info-content {
+  padding: 5%;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+
+.info-wrapper {
+  display: flex;
+  gap: 5%;
+}
+
+.cancel-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.textfield {
+  height: 40px;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tour {
+  border-radius: 5px;
+  border: 2px solid #d9d9d9;
+}
+
+.summary-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.customer-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.box p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}

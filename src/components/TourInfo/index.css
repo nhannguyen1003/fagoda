@@ -1,0 +1,78 @@
+.date {
+  width: 100%;
+  background-color: #d9d9d9;
+}
+
+.first-part {
+  margin: 3%;
+}
+
+/* .date {
+  display: flex;
+  flex-direction: column;
+  gap: 10xp;
+} */
+
+.date div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.num-price {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-weight: 600;
+}
+
+.num-price p {
+  margin: 0;
+}
+
+.tour-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-name {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.vehicle {
+  display: flex;
+  align-items: center;
+}
+
+.vehicle-img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.vehicle-max {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.photo-name img {
+  width: 40%;
+  height: 40%;
+}
+
+.tour-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tour-name p {
+  font-weight: 600;
+  font-size: 1em;
+  margin: 0;
+}
